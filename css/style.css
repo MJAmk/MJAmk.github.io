@@ -19,3 +19,30 @@
         table {
             margin-bottom: 50px;
         }
+.red {
+  color: red;
+}
+.blue {
+  color: blue;
+}
+.yellow {
+  color: yellow;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family:Arial;
+}
+tr:nth-child(even) {
+  background-color: white;
+  color: black;
+}
+p:nth-child(1) {
+  font-family: Georgia;
+}
+li:nth-child(1) {
+  color: orange;
+}
+li a:hover {
+  background-color: white;
+}
