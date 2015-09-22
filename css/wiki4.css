@@ -1,1 +1,47 @@
+html{
+background-color:darkgreen;
+}
 
+.wrap{
+width:1080px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.header{
+background-color:beige;
+height:140px;
+}
+
+.header h1{
+margin-right:15%;
+float:right;
+font-size:60px;
+}
+
+.nav{
+display:block;
+width:100%
+float:left;
+background-color:limegreen;
+clear:both;
+}
+
+.sidebar{
+width:25%;
+float:right;
+height:400px;
+background-color:beige;
+}
+
+.content{
+float:left;
+text-align:center;
+height:400px;
+width:75%;
+background-color:darkseagreen;
+}
+
+.content p{
+font-size:12px;
+}
