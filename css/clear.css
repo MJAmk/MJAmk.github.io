@@ -49,8 +49,10 @@ nav ul li {
     list-style-type: none;
     padding: 5px 0;
 }
-.class nth-child(1) {
-    float: left;
+.footer {
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    clear: both;
 }
-.class nth-child;(2) {
-    float: 
