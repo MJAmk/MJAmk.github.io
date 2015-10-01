@@ -15,8 +15,12 @@ table, tr, td, th {
 }
 p {
     max-width: 500px;
+    margin: 0 auto;
 }
-
+h2 {
+    max-width: 500px;
+    margin: 0 auto;
+}
 .bacon-info {
 }
 
