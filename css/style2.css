@@ -17,12 +17,11 @@ p {
     max-width: 500px;
     margin: 0 auto;
 }
-h2 {
+.bacon {
     max-width: 500px;
     margin: 0 auto;
 }
-.bacon-info {
-}
-
-.bacon-answer {
+ul {
+    max-width: 500px;
+    margin: 0 auto;
 }
