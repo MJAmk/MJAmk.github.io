@@ -58,6 +58,24 @@ table, tr, th, td {
     padding: 10px;
     border-collapse: collapse;
 }
+a {
+    color: #ffffff;
+}
+.pittsburgh a {
+    color: #000000;
+}
 .mets a:visited {
     color: #3d0823;
+}
+.dodgers a:visited {
+    color:#f1f0ff;
+}
+.cubs a:visited {
+    color:#000000;
+}
+.pittsburgh a:visited {
+    color:#1a1b1c;
+}
+.cardinals a:visited {
+    color:#0c1a1f;
 }
