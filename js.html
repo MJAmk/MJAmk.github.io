@@ -151,6 +151,21 @@ var myName = "Martin";
 for (x=0; x < myName.length; x++) {
     placeHolder.innerHTML += myName.substring(0, x+1) + "<br>";
 }
+
+function userInput() {
+        var answer = prompt("What's your name?");
+        var answerLen = answer.length;
+        if (answerLen < 5) {
+            console.log("Your name is " + answer + " and it is " + answerLen + "characters long which is really short.");
+        } else if (answerLen > 8) {
+            console.log("Your name is " + answer + " and it is " + answerLen + "characters long which is really long.");
+        } else {
+            console.log("Your name is " + answer + " and it is " + answerLen + "characters long which is average");   
+        }
+    };
+        
+        
+    userInput();
 </script>
 
 </body>
